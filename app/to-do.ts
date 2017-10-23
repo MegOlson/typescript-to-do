@@ -12,6 +12,9 @@ var tasks: Task[] = [];
 tasks.push(new Task('Do the dishes.', 'Medium'));
 tasks.push(new Task('Buy chocolate.', 'Low'));
 tasks.push(new Task('Do laundry.', 'High'));
+tasks.push(new Task('Buy groceries.', 'High'));
+tasks.push(new Task('Walk the dog.', 'Medium'));
+tasks.push(new Task('Water the plants.', 'High'));
 
 tasks[0].markDone();
 
